@@ -8,7 +8,7 @@ clock = pygame.time.Clock()
 running = True
 dt = 0
 
-player_pos = pygame.Vector2(screen.get_width() / 2, screen.get_height() / 2)
+player_pos = pygame.Vector2((screen.get_width() / 2) - 200, screen.get_height() / 2)
 
 # Set font
 font = pygame.font.Font(None, 36)
